@@ -1,0 +1,76 @@
+.icon{
+    width: 100px;
+    height:100px;
+    padding: 20px;
+    padding-bottom: 50;
+    color: black;
+}
+.link{
+    float:right;
+    padding:10px;
+    width:50px;
+    height:50px;
+    text-decoration: none;
+    color: black;
+}
+.card{
+    background-color:white;
+    outline: 4px solid black;
+    margin-left: 10px;
+    margin-top:10px;
+    width: 25rem;
+    max-width: 95%;
+    text-align: left;
+    padding-top: 10px;
+    padding:3px;
+    transition: margin-top .5s;
+    text-decoration: none;
+}
+.card:hover{
+    margin-top:0px;
+
+}
+.outercard{
+    padding-top:30px;
+    text-decoration: none;
+}
+.hreflink{
+    text-decoration: none;
+}
+
+
+
+.title{
+    font-size: 30px;
+    color:red;
+    padding-left:20px;
+    padding-bottom:20px;
+    color: black;
+    text-decoration: none !important;
+    text-decoration-color: white;
+
+}
+
+.text1{
+    color:red;
+    font-size: 17px;
+    padding-left:20px;
+    padding-bottom:20px;
+    color: black;
+    text-decoration: none !important;
+    text-decoration-color: white;
+
+}
+
+.tech{
+    font-size: 17px;
+    padding-left:20px;
+    padding-bottom:20px;
+    text-decoration: none;
+    color: rgb(111,111,111);
+    text-decoration: none !important;
+    text-decoration-color: white;
+
+}
+
+

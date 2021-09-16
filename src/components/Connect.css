@@ -1,0 +1,25 @@
+.text{
+    font-size: 30px
+}
+.logoimage{
+    color:black;
+    margin-top:30px;
+    padding-top:10px;
+    transition: padding-top .5s;
+    margin-right:20px;
+    size:2em;
+}
+.logoimage:hover{
+    padding-top:0px;
+}
+.email{
+    font-size:30px;
+    text-align: left;
+}
+.emailover{
+    text-align:left;
+    margin-left: 230px;
+}
+.logolinks{
+    text-align:center
+}

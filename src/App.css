@@ -1,0 +1,79 @@
+.App {
+  text-align: left;
+}
+
+.photo {
+  height: 300px;
+  width: 300pxl;
+  float: right;
+  padding-right: 200px;
+  margin-top: 500px;
+}
+.titlestyle{
+  text-align: left;
+  margin-left:200px;
+  margin-top:500px;
+}
+.aboutmetext{
+  text-align: left;
+  padding-left:200px;
+  padding-right:700px;
+  font-size:30px;
+}
+.namestyle {
+  font-size:120px;
+  padding-left:200px;
+  text-align: left;
+  padding-top:0px;
+  line-height:30px
+}
+.compscistyle{
+  font-size:40px;
+  padding-left:200px;
+  text-align: left;
+  padding-top:20px;
+  line-height:00px;
+}
+
+.histyle{
+  font-size: 30px;
+  padding-left:210px;
+  padding-top:300px;
+  padding-bottom:0px;
+  text-align: left;
+  line-height:0px
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
