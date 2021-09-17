@@ -6,7 +6,7 @@ import "./AboutMe.css";
 const AboutMe = () => {
   return (
     <div className="wrapper" animateIn="fadeIn">
-      <img src={MyImage} className="photocss" />
+      <img src={MyImage} alt="myphoto"className="photocss" />
       <p className="aboutmetext">
         Hey! I am a current college sophomore from San Francisco studying
         computer science. I am currently looking to explore further
