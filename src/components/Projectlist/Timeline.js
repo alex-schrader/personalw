@@ -18,7 +18,6 @@ const Timeline = () => {
         date="2021____________________________________________"
         contentStyle={{ background: 'rgb(211, 211, 211)', color: 'black'}}
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
-        className='element'
         icon={<IoHardwareChipOutline/>}
       >
         <h3 className="vertical-timeline-element-title">ITS Summer Technical Associate</h3>
