@@ -20,6 +20,7 @@ const Connect = () => {
         <a
           className="menu-item"
           target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/alexschrader1/"
         >
           <FaLinkedin size={50} className="logoimage" />
@@ -27,6 +28,7 @@ const Connect = () => {
         <a
           className="menu-item"
           target="_blank"
+          rel="noreferrer"
           href="https://github.com/aschrad1"
         >
           <FaGithub size={50} className="logoimage" />
@@ -34,6 +36,7 @@ const Connect = () => {
         <a
           className="menu-item"
           target="_blank"
+          rel="noreferrer"
           href="https://www.instagram.com/alexkschrader/"
         >
           <FaInstagram size={50} className="logoimage" />
@@ -41,6 +44,7 @@ const Connect = () => {
         <a
           className="menu-item"
           target="_blank"
+          rel="noreferrer"
           href="mailto: aschrad1@swarthmore.edu"
         >
           <GrMailOption size={50} className="logoimage" />

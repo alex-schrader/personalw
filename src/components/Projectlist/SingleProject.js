@@ -6,7 +6,7 @@ import "./SingleProject.css";
 const SingleProject = (props) => {
   return (
     <div className="outercard">
-        <a href = {props.link} target="_blank" className = 'hreflink'>
+        <a href = {props.link} target="_blank" rel="noreferrer" className = 'hreflink'>
       <div className="card">
         <BsFolder className="icon" />
         <BsLink45Deg className = 'link'/>

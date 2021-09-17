@@ -10,7 +10,7 @@ const School = (props) => {
         <h1 className="descr">{props.descr}</h1>
         <h1 className="classes">{props.classes}</h1>
       </div>
-      <img className="image" src={props.image} />
+      <img className="image" alt="school" src={props.image} />
     </div>
   );
 };

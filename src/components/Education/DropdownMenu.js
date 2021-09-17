@@ -1,6 +1,5 @@
-import {AiOutlineMail} from "react-icons/ai";
 import { CircleMenu, CircleMenuItem } from "react-circular-menu";
-import React, {useState} from 'react';
+import React from 'react';
 import swarthmore from './swarthmore.png';
 import sfs from './sfs.png'
 import udemy from './udemy.png'
@@ -30,13 +29,13 @@ const DropdownMenu = (props) => {
         tooltip="Email"
         tooltipPlacement="right"
       >
-        <img src={udemy} className = 'icon'/>
+        <img src={udemy} alt = "udemy"className = 'icon'/>
       </CircleMenuItem>
       <CircleMenuItem tooltip="Help" onClick={swarthmoreHandler}>
-      <img src={swarthmore} className = 'icon'/>
+      <img src={swarthmore} alt="swarthmore"className = 'icon'/>
       </CircleMenuItem>
       <CircleMenuItem tooltip="Location" onClick={sfsHandler}>
-      <img src={sfs} className = 'icon'/>
+      <img src={sfs} alt="sfs"className = 'icon'/>
       </CircleMenuItem>
     </CircleMenu>
   );

@@ -6,7 +6,6 @@ import Connect from './components/Connect'
 import AboutMe from './components/AboutMe'
 
 /*      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} /> */
-const text = "Hey! I am a current college sophomore from San Francisco studying computer science. I am currently looking to explore further oppurtunities in software development, and am open to any internships or projects. Outside of work, my hobbies include chess, soccer, and rock climbing"
 function App() {
   return (
     <div className="App">
