@@ -1,6 +1,6 @@
 .outbordercard{
     display:flex;
-    padding-left: 200px;
+    padding-left: 150px;
     
 }
 .menu{
@@ -11,5 +11,6 @@
 }
 .schoolblock{
     float:left;
-    margin-left:200px;
+    margin-left:500px;
+    width:40ch;
 }

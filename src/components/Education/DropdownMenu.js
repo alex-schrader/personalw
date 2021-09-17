@@ -19,7 +19,7 @@ const DropdownMenu = (props) => {
   return (
     <CircleMenu
       startAngle={90}
-      rotationAngle={-270}
+      rotationAngle={270}
       itemSize={6}
       radius={7}
       rotationAngleInclusive={false}

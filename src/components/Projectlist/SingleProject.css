@@ -1,6 +1,6 @@
 .icon{
-    width: 100px;
-    height:100px;
+    width: 80px;
+    height:80px;
     padding: 20px;
     padding-bottom: 50;
     color: black;
@@ -18,7 +18,7 @@
     outline: 4px solid black;
     margin-left: 10px;
     margin-top:10px;
-    width: 25rem;
+    width: 300px;
     max-width: 95%;
     text-align: left;
     padding-top: 10px;
@@ -41,7 +41,7 @@
 
 
 .title{
-    font-size: 30px;
+    font-size: 23px;
     color:red;
     padding-left:20px;
     padding-bottom:20px;
@@ -53,7 +53,7 @@
 
 .text1{
     color:red;
-    font-size: 17px;
+    font-size: 14px;
     padding-left:20px;
     padding-bottom:20px;
     color: black;
@@ -63,7 +63,7 @@
 }
 
 .tech{
-    font-size: 17px;
+    font-size: 14px;
     padding-left:20px;
     padding-bottom:20px;
     text-decoration: none;
