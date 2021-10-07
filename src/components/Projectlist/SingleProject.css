@@ -1,7 +1,7 @@
 .imgfold{
     width: 100px;
     height:auto;
-    padding: 20px;
+    padding: 20px !important;
     padding-bottom: 50;
     color: black;
 }
