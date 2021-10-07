@@ -8,7 +8,7 @@ const SingleProject = (props) => {
     <div className="outercard">
         <a href = {props.link} target="_blank" rel="noreferrer" className = 'hreflink'>
       <div className="card">
-        <BsFolder className="icon" />
+        <BsFolder className="imgfold" />
         <BsLink45Deg className = 'link'/>
         <h1 className="title">{props.title}</h1>
         <h1 className="text1">{props.text}</h1>

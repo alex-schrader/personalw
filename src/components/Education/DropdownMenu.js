@@ -29,13 +29,13 @@ const DropdownMenu = (props) => {
         tooltip="Email"
         tooltipPlacement="right"
       >
-        <img src={udemy} alt = "udemy"className = 'icon'/>
+        <img src={udemy} alt = "udemy"className = 'logoimg'/>
       </CircleMenuItem>
       <CircleMenuItem tooltip="Help" onClick={swarthmoreHandler}>
-      <img src={swarthmore} alt="swarthmore"className = 'icon'/>
+      <img src={swarthmore} alt="swarthmore"className = 'logoimg'/>
       </CircleMenuItem>
       <CircleMenuItem tooltip="Location" onClick={sfsHandler}>
-      <img src={sfs} alt="sfs"className = 'icon'/>
+      <img src={sfs} alt="sfs"className = 'logoimg'/>
       </CircleMenuItem>
     </CircleMenu>
   );
