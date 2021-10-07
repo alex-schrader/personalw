@@ -15,7 +15,7 @@ const Timeline = () => {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2021____________________________________________"
+        date="2021                                         "
         contentStyle={{ background: 'rgb(211, 211, 211)', color: 'black'}}
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         icon={<IoHardwareChipOutline/>}
@@ -28,7 +28,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="____________________________________________2018 - 2020"
+        date="                                         2018 - 2020"
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         contentStyle={{ background: 'rgb(211, 211, 211)', color: '#00000'}}
         icon={<BiAtom />}
@@ -43,7 +43,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2017 - 2020____________________________________________"
+        date="2017 - 2020                                         "
         dateClassName='datecls'
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         icon={<GiSoccerBall />}
@@ -55,7 +55,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="____________________________________________2017"
+        date="                                         2017"
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black'}}
         contentStyle={{ background: 'rgb(211, 211, 211)', color: '#00000'}}
         icon={<FaSyringe/>}
