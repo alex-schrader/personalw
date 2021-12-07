@@ -8,6 +8,7 @@ import './Timeline.css'
 import { BiAtom } from "react-icons/bi";
 import { GiSoccerBall } from "react-icons/gi";
 import { FaSyringe } from "react-icons/fa";
+import { IoExtensionPuzzleOutline } from "react-icons/io5";
 
 
 const Timeline = () => {
@@ -15,7 +16,20 @@ const Timeline = () => {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2021                                         "
+        date="Nov 2021 - Present"
+        contentStyle={{ background: 'rgb(211, 211, 211)', color: 'black'}}
+        iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
+        icon={<IoExtensionPuzzleOutline/> }
+      >
+        <h3 className="vertical-timeline-element-title">API Developer @ Progressive Shopper</h3>
+        <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+        <p>
+        Oversee API development and data scraper implementation of donation data of 10000+ companies for browser extension
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date="May 2021 - July 2021"
         contentStyle={{ background: 'rgb(211, 211, 211)', color: 'black'}}
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         icon={<IoHardwareChipOutline/>}
@@ -28,7 +42,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="                                         2018 - 2020"
+        date="Jan 2018 - Jan 2020"
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         contentStyle={{ background: 'rgb(211, 211, 211)', color: '#00000'}}
         icon={<BiAtom />}
@@ -43,7 +57,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2017 - 2020                                         "
+        date="Jan 2017 - Feb 2020"
         dateClassName='datecls'
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black' }}
         icon={<GiSoccerBall />}
@@ -55,7 +69,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="                                         2017"
+        date="May 2017"
         iconStyle={{ background: "rgb(211, 211, 211)", color: 'black'}}
         contentStyle={{ background: 'rgb(211, 211, 211)', color: '#00000'}}
         icon={<FaSyringe/>}
